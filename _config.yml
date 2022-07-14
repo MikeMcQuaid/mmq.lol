@@ -1,0 +1,21 @@
+title: Mike McQuaid's URL Shortener
+description: URL shortener for Mike McQuaid
+
+exclude:
+  - bin
+  - CNAME
+  - Gemfile*
+  - Rakefile,
+  - README.md
+  - vendor
+
+plugins:
+  - jekyll-redirect-from
+
+collections:
+  redirects:
+    output: true
+    permalink: "/:path/"
+
+github:
+  repository_nwo: MikeMcQuaid/mmq.lol
